@@ -302,7 +302,7 @@ firewall-cmd --zone=internal  --list-ports
 
 - Proceed to monitor the Installation process using the script or the equivalent `openshift-install wait-for ...` command
 
-    `./poc install`
+    `./poc.sh install`
 
 - Proceed to boot the Worker Nodes and select the `WORKER` option fromt he PXE menu
  
